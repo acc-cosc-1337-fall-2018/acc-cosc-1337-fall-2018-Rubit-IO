@@ -21,7 +21,7 @@ TEST_CASE("Test multiply_numbers", "[2,25,100]") {
 }
 
 TEST_CASE("Test pass by value and reference", "") {
-	int num1{ 0 }:
+	int num1{ 0 };
 	int num2{ 0 };
 	
 	pass_by_val_by_ref(num1, num2);
