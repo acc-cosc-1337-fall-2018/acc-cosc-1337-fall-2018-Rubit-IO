@@ -7,9 +7,9 @@ void Invoice::add_invoice_detail(InvoiceDetail detail)
 
 double Invoice::get_total() const
 {
-	double tota{ 0 };
+	double total{ 0 };
 
-	for (auto detail ;  invoice_details)
+	for (auto detail :  invoice_details)
 	{ 
 		total += detail.get_extended_cost();
 	}

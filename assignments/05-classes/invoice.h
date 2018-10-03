@@ -3,6 +3,8 @@
 #define INVOICE_H
 #include<vector>
 
+using std::vector;
+
 class Invoice
 {
 public:
@@ -11,8 +13,8 @@ public:
 
 
 private:
-	std::vector<InvoiceDetail> invoice_details;
-	vector<invoiceDetail> invoice_details;
+	vector<InvoiceDetail> invoice_details;
+	
 
 
 
